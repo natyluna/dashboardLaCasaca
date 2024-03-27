@@ -3,8 +3,7 @@ import TopBar from './TopBar';
 import ContentRowTop from './ContentRowTop';
 import Product from './Product';
 import Footer from './Footer';
-import ContentRowUser from './ContentRowUser';
-import User from './User';
+
 
 function ContentWrapper(){
 
@@ -17,8 +16,6 @@ function ContentWrapper(){
                     <TopBar />
                     <ContentRowTop />
                     <Product />
-                    <ContentRowUser/>
-                    <User />
                     <Footer />
                 </div>
             </div>    

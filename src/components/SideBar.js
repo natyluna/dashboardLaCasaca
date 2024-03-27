@@ -32,7 +32,7 @@ function SideBar(){
 
                 {/*<!-- Nav Item - Productos -->*/}
                 <li className="nav-item">
-                    <a className="nav-link collapsed" href="/">
+                    <a className="nav-link collapsed" href="/product">
                         <i className="fas fa-fw fa-folder"></i>
                         <span>Productos</span>
                     </a>
@@ -40,7 +40,7 @@ function SideBar(){
 
                 {/*<!-- Nav Item - Usuarios -->*/}
                 <li className="nav-item">
-                    <a className="nav-link" href="../components/ContentWrapperUser.js">
+                    <a className="nav-link" href="/user">
                     <i className="fas fa-fw fa-chart-area"></i>
                     <span>Usuarios</span></a>
                 </li>

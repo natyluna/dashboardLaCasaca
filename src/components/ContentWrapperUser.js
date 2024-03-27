@@ -4,7 +4,7 @@ import Footer from './Footer';
 import ContentRowUser from './ContentRowUser';
 import User from './User';
 
-function ContentWrapper(){
+function ContentWrapperUser(){
 
     return (
         <React.Fragment>
@@ -21,4 +21,4 @@ function ContentWrapper(){
         </React.Fragment>
     )
 }
-export default ContentWrapper;
+export default ContentWrapperUser;

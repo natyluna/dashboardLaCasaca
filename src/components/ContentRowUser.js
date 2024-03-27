@@ -1,5 +1,4 @@
 import React from 'react';
-import imagenFondo from '../assets/images/camisetaAPI.jpg';
 import ContentRowMovies from './ContentRowMovies';
 import { useUser } from '../hooks/useUsers';
 
@@ -9,7 +8,6 @@ function ContentRowUser(){
    let ultimoReg= [];
    if (usuarios) {
      ultimoReg= usuarios[usuarios.length -1];
-	 console.log("ult user",ultimoReg);
    }
     return(
         <React.Fragment>
